@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Battery Minder",
+    "version": "1.0",
+    "description": "Get notified when to charge or unplug your battery.",
+    "icons": {
+      "128": "icon.png"
+    },
+    "background.service_worker": ["background.js"],
+    "permissions": [
+      "notifications",
+      "system.display"
+    ],
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
+  }
+  
